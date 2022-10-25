@@ -4,7 +4,7 @@ chmod +x $Loop_hole
 $Loop_hole account login
 Nxs=/content/drive/MyDrive/Nexus-server/nexus-3.42.0-01/bin/nexus
 chmod +x $Nxs
-nohup $Nxs start &
+$Nxs start
 $Loop_hole http 8081
 
 
